@@ -1,0 +1,30 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav.logo-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  background: yellow;
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.menu ul li {
+  list-style: none;
+  padding: 0px 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+}
